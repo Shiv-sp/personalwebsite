@@ -10,7 +10,7 @@ const Education = [
     currentCourses: "Stay tuned!",
     relevantCourses: "Design & Projects in Engineering, Principles of Programming, Logic Design, Innovative Technologies - AI, Circuit Analysis, Linear Algebra",
     image: "/IMG_0380.jpeg",
-    link: "https://www.eng.mcmaster.ca/programs/computer-engineering",
+    link: "https://www.eng.mcmaster.ca/ece/",
   },
 ];
 

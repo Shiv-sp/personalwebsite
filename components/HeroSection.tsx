@@ -28,12 +28,12 @@ const HeroSection = () => {
         setCharIndex((prev) => prev - 1);
       } else if (!isDeleting && charIndex === textVariants[index].length) {
         setIsDeleting(true);
-        setTimeout(() => {}, 1000);
+        setTimeout(() => {}, 4000);
       } else if (isDeleting && charIndex === 0) {
         setIsDeleting(false);
         setIndex((prev) => (prev + 1) % textVariants.length);
       }
-    }, isDeleting ? 50 : 100);
+    }, isDeleting ? 100 : 150);
 
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, index]);

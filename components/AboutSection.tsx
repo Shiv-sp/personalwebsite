@@ -38,6 +38,7 @@ const tools = [
   { skill: "AnsysGranta" },
   { skill: "Aceternity UI" },
   { skill: "Framer" },
+  { skill: "AutoCAD" },
 ];
 
 const AboutSection = () => {

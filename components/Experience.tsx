@@ -9,7 +9,6 @@ const Experience = [
     description: "Software Development Officer (Web Development)",
     tools: "TBD",
     image: "/IMG_30552274246D-1.jpeg",
-    github: "https://github.com/hqasmei/thankful-thoughts",
     link: "https://www.linkedin.com/company/microbuild-engineering-society-mcmaster/posts/?feedView=all",
   },
   {
@@ -17,7 +16,6 @@ const Experience = [
     description: "VP Finance",
     tools: "Microsoft Office, Python",
     image: "/DSC03446.JPG",
-    github: "https://github.com/Shiv-sp/Snake-Game",
     link: "https://msumcmaster.ca/initiative/mcmaster-gujarati-students-association/",
   },
   {
@@ -25,7 +23,6 @@ const Experience = [
     description: "Living Learning Community (LLC) Community Advisor (CA)",
     tools: "Microsoft Office, Canva",
     image: "/IMG_0019.jpg",
-    github: "https://github.com/Shiv-sp/P4",
     link: "https://housing.mcmaster.ca/housing-conference-services/",
   },
   {
@@ -33,8 +30,7 @@ const Experience = [
     description: "Coach",
     tools: "Microsoft Office",
     image: "/57e614d9-c32d-475c-bd35-84d68ff95c72 2.JPG",
-    github: "https://github.com/Shiv-sp/Battleship",
-    link: "https://github.com/Shiv-sp/Battleship",
+    link: "https://www.mlb.com/bluejays/community/jays-care",
   },
 ];
 
