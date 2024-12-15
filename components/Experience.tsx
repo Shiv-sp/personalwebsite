@@ -1,5 +1,5 @@
 "use client"; // Add this at the top of the file
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
