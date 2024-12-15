@@ -1,7 +1,9 @@
+"use client"; // Add this at the top of the file
+import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import { BsArrowUpRightSquare } from "react-icons/bs";
 
 const Experience = [
   {
@@ -44,35 +46,45 @@ const ExperienceSection = () => {
 
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
         {Experience.map((item, idx) => (
-          <div
+          <motion.div
             key={idx}
-            className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+            className="bg-white dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-lg overflow-hidden hover:translate-y-3 hover:scale-105 hover:shadow-xl transition-all duration-500"
+            initial={{ opacity: 0, y: 50 }} // Start off-screen
+            whileInView={{ opacity: 1, y: 0 }} // Animate into view
+            viewport={{ once: true, amount: 0.2 }} // Trigger animation once when 20% visible
+            transition={{ duration: 0.6, delay: idx * 0.2 }} // Delay for staggering effect
           >
-            <Image
-              src={item.image}
-              alt={item.name}
-              width={500}
-              height={300}
-              className="w-full h-48 object-cover"
-            />
-            <div className="text-black mb-4 p-6">
-              <h2 className="text-2xl font-bold mb-2">{item.name}</h2>
-              <p className="text-neutral-700 mb-4">
+            <div className="relative">
+              <Image
+                src={item.image}
+                alt={item.name}
+                width={500}
+                height={300}
+                className="w-full h-48 object-cover transition-all duration-300 hover:brightness-75" // Image darken effect on hover
+              />
+            </div>
+            <div className="p-6 space-y-4">
+              <h2 className="text-2xl font-bold">{item.name}</h2>
+              <p>
                 <span className="font-semibold">Role:</span> {item.description}
               </p>
-              <p className="text-neutral-700 mb-4">
+              <p className="text-neutral-700 dark:text-gray-400">
                 <span className="font-semibold">Tools:</span> {item.tools}
               </p>
               <div className="flex space-x-4">
-                <Link href={item.link} target="_blank" className="text-gray-500 hover:text-gray-700">
+                <Link
+                  href={item.link}
+                  target="_blank"
+                  className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                >
                   <BsArrowUpRightSquare
-                        size={30}
-                        className="hover:scale-110 transition-all transform cursor-pointer hover:text-violet-500 hover:shadow-xl"
+                    size={30}
+                    className="hover:scale-110 transition-all transform cursor-pointer hover:text-violet-500 hover:shadow-xl"
                   />
                 </Link>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
@@ -80,3 +92,7 @@ const ExperienceSection = () => {
 };
 
 export default ExperienceSection;
+
+
+
+

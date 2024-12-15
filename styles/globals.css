@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide the default cursor */
+body {
+    cursor: none;
+}
+  
+  /* Custom cursor styles */
+.custom-cursor {
+    width: 20px; /* Adjust size to fit the emoji */
+    height: 20px;
+    position: absolute;
+    pointer-events: none; /* Prevent blocking interactions */
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: red;
+    z-index: 9999;
+    mix-blend-mode: difference; /* Ensures visibility in both light and dark modes */
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  
+  
+  

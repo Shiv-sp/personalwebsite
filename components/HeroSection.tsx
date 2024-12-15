@@ -9,6 +9,7 @@ const HeroSection = () => {
   const textVariants = [
     "Shiv!",
     "a leader!",
+    "an innovator!",
     "an athlete!",
     "a music enjoyer!",
   ];
@@ -33,7 +34,7 @@ const HeroSection = () => {
         setIsDeleting(false);
         setIndex((prev) => (prev + 1) % textVariants.length);
       }
-    }, isDeleting ? 100 : 150);
+    }, isDeleting ? 150 : 150);
 
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, index]);
@@ -54,7 +55,7 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
             Hi, I&#39;m{" "}
-            <span className="text-sky-600">{currentText}</span>
+            <span className="text-cyan-600">{currentText}</span>
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}

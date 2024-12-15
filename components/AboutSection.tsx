@@ -58,7 +58,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Shiv and I am a{" "}
+              Hi, my name is Shiv (he/him) and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> Computer Engineering
@@ -79,8 +79,11 @@ const AboutSection = () => {
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From playing and watching sports (cricket, baseball, and basketball), 
-              listening to music (shoutout to Drake and Taylor Swift!), and exploring the outdoors!
+              From playing and watching{" "} 
+              <span className="font-bold">{"sports (cricket, baseball, and basketball)"}</span>, 
+              listening to{" "} 
+              <span className="font-bold">{"music (shoutout to Drake and Taylor Swift!)"}</span>, 
+              and exploring the outdoors!
               I am always seeking new experiences and love to keep myself engaged and learning new things.
             </p>
             <br />
@@ -89,6 +92,25 @@ const AboutSection = () => {
               <span className="font-bold text-yellow-500">full-stack development, software development, and embedded systems!</span>{" "}
               I also thrive on solving complex problems and enjoy the challenge of developing innovative solutions. Whether coding, designing digital systems, or exploring new tech trends, I approach each task with enthusiasm and a fresh perspective. 🙂
             </p>
+
+            {/* Embed Spotify Playlist below the about me text */}
+            <div className="mt-8">
+              <p>
+                If you know me, music is a big part of me, so I'll be updating this as often as I can 😌 
+              </p>
+              <p>
+                <span className="font-bold text-green-600">For now, feel free to check out my Top Songs From 2024!</span>{" "}
+              </p>
+              <iframe
+                style={{ borderRadius: "12px" }}
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1FoyQGyinuuvRu?utm_source=generator"
+                width="100%"
+                height="152"
+                frameBorder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
 
           {/* Skills Section */}
@@ -130,4 +152,5 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
 

@@ -19,6 +19,9 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
           © 2024 Shiv Patel<a href="/" className="hover:underline"></a>
         </div>
+        <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
+          Thanks for visiting 🫶🏽 ⎸⎸ Check out my Spotify and LinkedIn 🎧 ➡️ <a href="/" className="hover:underline"></a>
+        </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
             href="https://shivpatel.vercel.app/"

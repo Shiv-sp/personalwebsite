@@ -9,7 +9,7 @@ const projects = [
     name: "Personal Website/Portfolio",
     description: "The one you're on right now!",
     tools: ["TypeScript", "Next.js", "JavaScript", "TailwindCSS", "Git", "Vercel"],
-    type:["Personal"],
+    type: ["Personal"],
     image: "/Screenshot 2024-12-13 at 3.34.02 PM.png",
     github: "https://github.com/Shiv-sp/personalwebsite",
     link: "https://shivpatel.vercel.app/",
@@ -19,7 +19,7 @@ const projects = [
     description:
       "A dynamic Snake Game with real-time collision detection, adaptive gameplay, and an interactive UI using OOP principles for modular, scalable design.",
     tools: ["C++", "C", "Git", "GitHub"],
-    type:["Academic (Collaborative)"],
+    type: ["Academic (Collaborative)"],
     image: "/Screenshot 2024-12-14 at 3.49.37 PM.png",
     github: "https://github.com/Shiv-sp/Snake-Game",
     link: "https://github.com/Shiv-sp/Snake-Game",
@@ -29,7 +29,7 @@ const projects = [
     description:
       "Collaborated on the IMPACT Initiative to design a collapsible basket for wheelchair attachment, enhancing mobility and independence for a client with spina bifida.",
     tools: ["AutoCAD", "AnsysGranta", "PrusaSlicer", "Microsoft Office"],
-    type:["Academic (Collaborative)"],
+    type: ["Academic (Collaborative)"],
     image: "/collapsible model (1).png",
     github: "https://github.com/Shiv-sp/P4",
     link: "https://boom-safflower-220.notion.site/Project-4-Power-in-Community-Porta-Basket-b69e11e7bf3f49b8b9660545a4a4ce8f",
@@ -39,17 +39,16 @@ const projects = [
     description:
       "Lurnius curates and ranks educational resources based on community votes, enhancing learning and productivity.",
     tools: ["Python", "React", "SQL", "TypeScript", "Next.js", "Node.js", "Express.js", "Figma"],
-    type:["Hackathon (Collaborative)"],
-    image: "/idea-brain-icon-on-transparent-background-free-png.webp",
+    type: ["Hackathon (Collaborative)"],
+    image: "/Screenshot 2024-12-15 at 10.25.27 AM.png",
     github: "https://github.com/ypatel2022/lurnius",
     link: "https://devpost.com/software/lurnius",
   },
   {
     name: "BattleShip",
-    description:
-      "A Battleship game with interactive UI and grid-based gameplay.",
+    description: "A Battleship game with interactive UI and grid-based gameplay.",
     tools: ["Python", "GitHub"],
-    type:["Academic"],
+    type: ["Academic"],
     image: "/Screenshot 2024-12-14 at 4.02.14 PM.png",
     github: "https://github.com/Shiv-sp/Battleship",
     link: "https://github.com/Shiv-sp/Battleship",
@@ -61,7 +60,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
@@ -69,14 +68,22 @@ const ProjectsSection = () => {
           <div key={idx}>
             <SlideUp offset="-300px 0px -300px 0px">
               <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                <div className="md:w-1/2">
+                <div
+                  className={`md:w-1/2 ${
+                    project.name === "Lurnius"
+                      ? "bg-transparent p-4 rounded-lg dark:bg-transparent"
+                      : ""
+                  }`}
+                >
                   <Link href={project.link}>
                     <Image
                       src={project.image}
                       alt=""
                       width={1000}
-                      height={1000}
-                      className="rounded-xl shadow-xl hover:opacity-70"
+                      height={600}
+                      className={`rounded-xl shadow-xl hover:opacity-70 ${
+                        project.name === "Lurnius" ? "h-auto" : ""
+                      }`}
                     />
                   </Link>
                 </div>
@@ -133,4 +140,7 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+
+
+
 
