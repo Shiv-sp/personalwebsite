@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
-const CustomCursor = () => {
+const CustomCursor: React.FC = () => {
   useEffect(() => {
     const cursor = document.createElement('div');
     cursor.classList.add('custom-cursor');
     cursor.innerText = '❤️'; // Red heart emoji
     document.body.appendChild(cursor);
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => {
       cursor.style.left = `${e.pageX}px`;
       cursor.style.top = `${e.pageY}px`;
     };
@@ -24,3 +24,4 @@ const CustomCursor = () => {
 };
 
 export default CustomCursor;
+
