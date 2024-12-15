@@ -1,5 +1,4 @@
 "use client"; // Add this at the top of the file
-import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,13 +45,10 @@ const ExperienceSection = () => {
 
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
         {Experience.map((item, idx) => (
-          <motion.div
+          <div
             key={idx}
-            className="bg-white dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-lg overflow-hidden hover:translate-y-3 hover:scale-105 hover:shadow-xl transition-all duration-500"
-            initial={{ opacity: 0, y: 50 }} // Start off-screen
-            whileInView={{ opacity: 1, y: 0 }} // Animate into view
-            viewport={{ once: true, amount: 0.2 }} // Trigger animation once when 20% visible
-            transition={{ duration: 0.6, delay: idx * 0.2 }} // Delay for staggering effect
+            className="bg-white dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-lg overflow-hidden transform transition-all duration-500 hover:translate-y-3 hover:scale-105 hover:shadow-xl opacity-0 animate-fade-in"
+            style={{ animationDelay: `${idx * 0.2}s` }}
           >
             <div className="relative">
               <Image
@@ -60,7 +56,7 @@ const ExperienceSection = () => {
                 alt={item.name}
                 width={500}
                 height={300}
-                className="w-full h-48 object-cover transition-all duration-300 hover:brightness-75" // Image darken effect on hover
+                className="w-full h-48 object-cover transition-all duration-300 hover:brightness-75"
               />
             </div>
             <div className="p-6 space-y-4">
@@ -84,14 +80,32 @@ const ExperienceSection = () => {
                 </Link>
               </div>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
+
+      <style jsx>{`
+        @keyframes fade-in {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        .animate-fade-in {
+          animation: fade-in 0.6s ease forwards;
+        }
+      `}</style>
     </section>
   );
 };
 
 export default ExperienceSection;
+
 
 
 
