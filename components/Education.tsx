@@ -11,7 +11,7 @@ const Education = [
     awards:
       "Engineering Dean's Excellence Award ($7,500), McMaster University Award of Excellence ($3,000)",
     relevantCourses:
-      "Design & Projects in Engineering, Principles of Programming, Logic Design, Innovative Technologies - AI, Circuit Analysis, Linear Algebra",
+      "Data Structures & Algorithms, Microprocessor Systems Project, Engineering Communications, Design & Projects in Engineering, Principles of Programming, Digital Logic Design, Innovative Technologies - AI, Circuit Analysis, Linear Algebra",
     image: "/IMG_0380.jpeg",
     link: "https://www.eng.mcmaster.ca/ece/",
   },
