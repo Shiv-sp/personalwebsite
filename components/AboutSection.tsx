@@ -9,14 +9,20 @@ const softwareSkills = [
   { skill: "C++" },
   { skill: "HTML" },
   { skill: "CSS" },
-  { skill: "TailwindCSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Next" },
   { skill: "MATLAB" },
   { skill: "LaTeX" },
   { skill: "R" },
+];
+const frameWorkLibrary = [
+  { skill: "TailwindCSS" },
+  { skill: "React" },
+  { skill: "Next" },
+  { skill: "Matplotlib" },
+  { skill: "numPy" },
+  { skill: "Pandas" },
+  { skill: "yfinance" },
 ];
 
 const hardwareSkills = [
@@ -34,6 +40,7 @@ const tools = [
   { skill: "Jupyter Notebook" },
   { skill: "Quartus" },
   { skill: "PSpice" },
+  { skill: "LTSpice" },
   { skill: "Microsoft Office" },
   { skill: "AnsysGranta" },
   { skill: "Aceternity UI" },
@@ -117,6 +124,7 @@ const AboutSection = () => {
           <div className="md:w-1/2 flex flex-col space-y-8">
             {[
               { title: "Software", skills: softwareSkills, bgColor: "bg-sky-200" },
+              { title: "Frameworks/Libraries", skills: frameWorkLibrary, bgColor: "bg-teal-200" },
               { title: "Hardware", skills: hardwareSkills, bgColor: "bg-blue-200" },
               { title: "Tools", skills: tools, bgColor: "bg-indigo-200" },
             ].map((section, index) => (
