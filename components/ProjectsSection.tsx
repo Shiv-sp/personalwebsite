@@ -6,6 +6,16 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    "name": "Finance Trend Plotter",
+    "description": "Fetches 2 years of stock data using yfinance and visualizes closing prices alongside 50-day and 200-day moving averages with a production-quality plot.",
+    "tools": ["Python", "Pandas", "yfinance", "Matplotlib", "Jupyter Notebook", "numPy"],
+    "type": ["Personal"],
+    "image": "/FinanceTrendSample.png",
+    "github": "https://github.com/Shiv-sp/StockAnalysisVisualizer",
+    "link": "https://github.com/Shiv-sp/StockAnalysisVisualizer"
+  },
+
+  {
     name: "Personal Website/Portfolio",
     description: "The one you're on right now!",
     tools: ["TypeScript", "Next.js", "JavaScript", "TailwindCSS", "Git", "Vercel"],
