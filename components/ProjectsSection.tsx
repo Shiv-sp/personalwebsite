@@ -7,7 +7,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const projects = [
   {
     "name": "Finance Trend Plotter",
-    "description": "Fetches 2 years of stock data using yfinance and visualizes closing prices alongside 50-day and 200-day moving averages with a production-quality plot.",
+    "description": "Fetches years of stock data given a range from the user, using yfinance and visualizes closing prices alongside 50-day and 200-day moving averages with a production-quality plot.",
     "tools": ["Python", "Pandas", "yfinance", "Matplotlib", "Jupyter Notebook", "numPy"],
     "type": ["Personal"],
     "image": "/FinanceTrendSample copy.png",
