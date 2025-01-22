@@ -70,7 +70,7 @@ const HeroSection = () => {
             {" "}related roles!
           </p>
           <a
-            href="/SP_Resume_Jan2025.pdf"
+            href="/Resume_PatelShiv_Jan2025.pdf"
             className="text-neutral-100 font-semibold px-6 py-3 bg-green-500 rounded shadow hover:bg-teal-700"
             target="_blank"
             rel="noopener noreferrer"
