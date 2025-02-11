@@ -7,7 +7,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const projects = [
   {
     name: "AC to DC Converter",
-    description: "Designed and built a DC power supply capable of delivering 10 mA at 3V ± 0.1V from a 120V (rms) at 1 kHz AC source. Implemented a rectifier, filter, and regulator to ensure stable DC output, considering voltage ripple and component ratings. Simulated circuit performance in LTSpice and validated results using Analog Discovery 3, an oscilloscope, and an Agilent Function Generator.",
+    description: "Designed and built a DC power supply with a rectifier, filter, and regulator, ensuring stable 3V output from a 120V AC source.",
     tools: ["Analog Discovery 3", "Oscilloscope", "Agilent Function Generator", "Electrical Components", "LTSpice"],
     type: ["Academic"],
     "image": "/FinanceTrendSample copy.png",
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     name: "UmpireMate",
-    description: "Developed a cricket umpire score tracking app for real-time score updates, including runs, wickets, and overs. Implemented interactive buttons for scorekeeping, such as Run, Wicket, Ball, and Extra, using SwiftUI components. Built an intuitive UI in Xcode with features like New Inning and tracking multiple innings. The app supports dynamic updates and real-time score adjustments with visual feedback.",
+    description: "Developed a cricket umpire score-tracking app with real-time updates, interactive buttons, and a dynamic UI in SwiftUI.",
     tools: ["Swift", "SwiftUI", "Xcode"],
     type: ["Personal"],
     image: "/FinanceTrendSample copy.png",
@@ -54,7 +54,7 @@ const projects = [
   },
   { 
     name: "Programmable and Sequential Logic Circuits",
-    description: "Implemented combinational and sequential logic circuits, including JK flip-flops, shift registers, and synchronous counters, using Verilog and schematic capture. Designed and simulated a circular shift register and synchronous up-counter, verifying functionality through HDL simulations and hardware testing with FPGAs. Configured EEPROM for binary-to-BCD conversion and measured access times using oscilloscopes and logic analyzers.",
+    description: "Implemented and tested combinational and sequential logic circuits using Verilog, including shift registers and counters on an FPGA.",
     tools: ["Quartus Prime Lite", "Questa FSE", "MAX10 FPGA", "Verilog", "Oscilloscope", "Logic Gates"],
     type: ["Academic"],
     image: "/Screenshot 2024-12-14 at 3.49.37 PM.png",
@@ -73,17 +73,16 @@ const projects = [
   },
   {
     name: "Revenge of The Recycling System",
-    description: "Collaborated in a team environment to design and implement a recycling simulation system using Python and Quanser Technologies, simulating automated sorting processes for environmental awareness. Integrated real-time control algorithms to manage conveyor belt movements and object detection, ensuring accurate sorting and system efficiency. Utilized Quanser's graphical interface for verification and testing, ensuring system accuracy and validating sorting operations.",
+    description: "Developed a Python-based recycling simulation system with real-time control algorithms for automated sorting using Quanser Technologies.",
     tools: ["Python", "Quanser Technologies"],
     type: ["Academic", "Collaborative"],
     "image": "/FinanceTrendSample copy.png",
     github: "https://github.com/Shiv-sp/Revenge-of-The-Recycling-System",
     link: "https://github.com/Shiv-sp/Revenge-of-The-Recycling-System"
-  }
+  },
   {
     name: "Lurnius",
-    description:
-      "Lurnius curates and ranks educational resources based on community votes, enhancing learning and productivity.",
+    description: "Lurnius curates and ranks educational resources based on community votes, enhancing learning and productivity.",
     tools: ["Python", "React", "SQL", "TypeScript", "Next.js", "Node.js", "Express.js", "Figma"],
     type: ["Hackathon (Collaborative)"],
     image: "/Screenshot 2024-12-15 at 10.25.27 AM.png",
