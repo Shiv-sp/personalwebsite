@@ -6,13 +6,31 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    "name": "Finance Trend Plotter",
-    "description": "Fetches years of stock data given a range from the user, using yfinance and visualizes closing prices alongside 50-day and 200-day moving averages with a production-quality plot.",
-    "tools": ["Python", "Pandas", "yfinance", "Matplotlib", "Jupyter Notebook", "numPy"],
-    "type": ["Personal"],
+    name: "AC to DC Converter",
+    description: "Designed and built a DC power supply capable of delivering 10 mA at 3V ± 0.1V from a 120V (rms) at 1 kHz AC source. Implemented a rectifier, filter, and regulator to ensure stable DC output, considering voltage ripple and component ratings. Simulated circuit performance in LTSpice and validated results using Analog Discovery 3, an oscilloscope, and an Agilent Function Generator.",
+    tools: ["Analog Discovery 3", "Oscilloscope", "Agilent Function Generator", "Electrical Components", "LTSpice"],
+    type: ["Academic"],
     "image": "/FinanceTrendSample copy.png",
-    "github": "https://github.com/Shiv-sp/StockAnalysisVisualizer",
-    "link": "https://github.com/Shiv-sp/StockAnalysisVisualizer"
+    github: "https://github.com/Shiv-sp/AC-DC_Converter",
+    link: "https://github.com/Shiv-sp/AC-DC_Converter"
+  },
+  {
+    name: "UmpireMate",
+    description: "Developed a cricket umpire score tracking app for real-time score updates, including runs, wickets, and overs. Implemented interactive buttons for scorekeeping, such as Run, Wicket, Ball, and Extra, using SwiftUI components. Built an intuitive UI in Xcode with features like New Inning and tracking multiple innings. The app supports dynamic updates and real-time score adjustments with visual feedback.",
+    tools: ["Swift", "SwiftUI", "Xcode"],
+    type: ["Personal"],
+    image: "/FinanceTrendSample copy.png",
+    github: "https://github.com/Shiv-sp/umpireMate",
+    link: "https://github.com/Shiv-sp/umpireMate"
+  },
+  {
+    name: "Finance Trend Plotter",
+    description: "Fetches years of stock data given a range from the user, using yfinance and visualizes closing prices alongside 50-day and 200-day moving averages with a production-quality plot.",
+    tools: ["Python", "Pandas", "yfinance", "Matplotlib", "Jupyter Notebook", "numPy"],
+    type: ["Personal"],
+    image: "/FinanceTrendSample copy.png",
+    github: "https://github.com/Shiv-sp/StockAnalysisVisualizer",
+    link: "https://github.com/Shiv-sp/StockAnalysisVisualizer"
   },
 
   {
@@ -34,6 +52,15 @@ const projects = [
     github: "https://github.com/Shiv-sp/Snake-Game",
     link: "https://github.com/Shiv-sp/Snake-Game",
   },
+  { 
+    name: "Programmable and Sequential Logic Circuits",
+    description: "Implemented combinational and sequential logic circuits, including JK flip-flops, shift registers, and synchronous counters, using Verilog and schematic capture. Designed and simulated a circular shift register and synchronous up-counter, verifying functionality through HDL simulations and hardware testing with FPGAs. Configured EEPROM for binary-to-BCD conversion and measured access times using oscilloscopes and logic analyzers.",
+    tools: ["Quartus Prime Lite", "Questa FSE", "MAX10 FPGA", "Verilog", "Oscilloscope", "Logic Gates"],
+    type: ["Academic"],
+    image: "/Screenshot 2024-12-14 at 3.49.37 PM.png",
+    github: "https://github.com/Shiv-sp/lab4-2di4",
+    link: "https://github.com/Shiv-sp/lab4-2di4"
+  },
   {
     name: "Porta-Basket",
     description:
@@ -44,6 +71,15 @@ const projects = [
     github: "https://github.com/Shiv-sp/P4",
     link: "https://boom-safflower-220.notion.site/Project-4-Power-in-Community-Porta-Basket-b69e11e7bf3f49b8b9660545a4a4ce8f",
   },
+  {
+    name: "Revenge of The Recycling System",
+    description: "Collaborated in a team environment to design and implement a recycling simulation system using Python and Quanser Technologies, simulating automated sorting processes for environmental awareness. Integrated real-time control algorithms to manage conveyor belt movements and object detection, ensuring accurate sorting and system efficiency. Utilized Quanser's graphical interface for verification and testing, ensuring system accuracy and validating sorting operations.",
+    tools: ["Python", "Quanser Technologies"],
+    type: ["Academic", "Collaborative"],
+    "image": "/FinanceTrendSample copy.png",
+    github: "https://github.com/Shiv-sp/Revenge-of-The-Recycling-System",
+    link: "https://github.com/Shiv-sp/Revenge-of-The-Recycling-System"
+  }
   {
     name: "Lurnius",
     description:
