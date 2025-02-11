@@ -10,7 +10,7 @@ const projects = [
     description: "Designed and built a DC power supply with a rectifier, filter, and regulator, ensuring stable 3V output from a 120V AC source.",
     tools: ["Analog Discovery 3", "Oscilloscope", "Agilent Function Generator", "Electrical Components", "LTSpice"],
     type: ["Academic"],
-    "image": "/FinanceTrendSample copy.png",
+    "image": "/WhatsApp Image 2025-02-11 at 09.15.43.jpeg",
     github: "https://github.com/Shiv-sp/AC-DC_Converter",
     link: "https://github.com/Shiv-sp/AC-DC_Converter"
   },
@@ -19,7 +19,7 @@ const projects = [
     description: "Developed a cricket umpire score-tracking app with real-time updates, interactive buttons, and a dynamic UI in SwiftUI.",
     tools: ["Swift", "SwiftUI", "Xcode"],
     type: ["Personal"],
-    image: "/FinanceTrendSample copy.png",
+    image: "/Simulator Screenshot - iPad mini (A17 Pro) - 2025-02-11 at 10.18.45.png",
     github: "https://github.com/Shiv-sp/umpireMate",
     link: "https://github.com/Shiv-sp/umpireMate"
   },
@@ -57,7 +57,7 @@ const projects = [
     description: "Implemented and tested combinational and sequential logic circuits using Verilog, including shift registers and counters on an FPGA.",
     tools: ["Quartus Prime Lite", "Questa FSE", "MAX10 FPGA", "Verilog", "Oscilloscope", "Logic Gates"],
     type: ["Academic"],
-    image: "/Screenshot 2024-12-14 at 3.49.37 PM.png",
+    image: "/fpga.jpg",
     github: "https://github.com/Shiv-sp/lab4-2di4",
     link: "https://github.com/Shiv-sp/lab4-2di4"
   },
@@ -76,7 +76,7 @@ const projects = [
     description: "Developed a Python-based recycling simulation system with real-time control algorithms for automated sorting using Quanser Technologies.",
     tools: ["Python", "Quanser Technologies"],
     type: ["Academic", "Collaborative"],
-    "image": "/FinanceTrendSample copy.png",
+    "image": "/Screenshot 2024-04-09 at 1.20.55 AM.png",
     github: "https://github.com/Shiv-sp/Revenge-of-The-Recycling-System",
     link: "https://github.com/Shiv-sp/Revenge-of-The-Recycling-System"
   },
