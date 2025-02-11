@@ -7,6 +7,8 @@ const softwareSkills = [
   { skill: "Python" },
   { skill: "C" },
   { skill: "C++" },
+  { skill: "Embedded C" },
+  { skill: "Assembly" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
@@ -14,38 +16,47 @@ const softwareSkills = [
   { skill: "MATLAB" },
   { skill: "LaTeX" },
   { skill: "R" },
+  { skill: "UML" },
+  { skill: "Verilog (HDL)" },
+  { skill: "Swift" },
 ];
+
 const frameWorkLibrary = [
-  { skill: "TailwindCSS" },
+  { skill: "Next.js" },
   { skill: "React" },
-  { skill: "Next" },
+  { skill: "TailwindCSS" },
   { skill: "Matplotlib" },
   { skill: "numPy" },
   { skill: "Pandas" },
   { skill: "yfinance" },
+  { skill: "SwiftUI" },
 ];
 
 const hardwareSkills = [
-  { skill: "Verilog (HDL)" },
   { skill: "Arduino" },
+  { skill: "Analog Discovery 2/3" },
   { skill: "Quanser Technologies" },
-  { skill: "Analog Discover 2/3" },
+  { skill: "Microcontrollers/Microprocessors" },
+  { skill: "FPGA" },
+  { skill: "Oscilloscopes" },
+  { skill: "Digital Multimeter" },
 ];
 
 const tools = [
   { skill: "GitHub" },
   { skill: "Git" },
   { skill: "Figma" },
-  { skill: "VSCode" },
+  { skill: "VS Code" },
+  { skill: "XCode" },
   { skill: "Jupyter Notebook" },
   { skill: "Quartus" },
-  { skill: "PSpice" },
+  { skill: "OrCAD" },
   { skill: "LTSpice" },
-  { skill: "Microsoft Office" },
+  { skill: "Keil uVision" },
+  { skill: "Microsoft Office (Excel, Teams, Outlook, Word, PowerPoint)" },
   { skill: "AnsysGranta" },
-  { skill: "Aceternity UI" },
-  { skill: "Framer" },
   { skill: "AutoCAD" },
+  { skill: "PrusaSlicer" },
 ];
 
 const AboutSection = () => {
