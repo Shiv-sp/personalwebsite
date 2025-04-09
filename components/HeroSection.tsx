@@ -57,8 +57,8 @@ const HeroSection = () => {
             Hi, I&#39;m{" "}
             <span className="text-cyan-600">{currentText}</span>
           </h1>
-          <p className="text-lg mt-4 mb-2 md:text-2xl">
-          📍Incoming @ <span className="font-semibold text-emerald-600">Candor Industries</span>.
+          <p></p>
+          <p className="text-lg mt-4 mb-2 md:text-2xl">📍Incoming @ <span className="font-semibold text-rose-600">Candor Industries</span>
           </p>
           <p></p>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
