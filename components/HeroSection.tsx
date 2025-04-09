@@ -61,7 +61,7 @@ const HeroSection = () => {
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">Computer Engineer</span>
             {" "}based in Toronto, Ontario. I&#39;m currently seeking internships for{" "}
-            <span className="font-semibold text-blue-600">Spring & Fall 2025</span>
+            <span className="font-semibold text-blue-600">Fall & Winter 2025</span>
             {" "}in{" "}
             <span className="font-semibold text-red-600">Project Management</span>,{" "}
             <span className="font-semibold text-yellow-600">Software Engineering</span>
