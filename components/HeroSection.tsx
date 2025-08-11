@@ -63,7 +63,7 @@ const HeroSection = () => {
           <p> </p>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">2nd year Computer Engineering student</span>
+            <span className="font-semibold text-teal-600">3rd year Computer Engineering student</span>
             {" "}based in Toronto, Ontario. I&#39;m currently seeking internships for{" "}
             <span className="font-semibold text-blue-600">Winter and Spring 2026</span>
             {" "}in{" "}
