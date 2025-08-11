@@ -58,14 +58,14 @@ const HeroSection = () => {
             <span className="text-cyan-600">{currentText}</span>
           </h1>
           <p> </p>
-          <p className="text-lg mt-4 mb-2 md:text-2xl">📍Currently: Systems Implementation Engineer Intern @ <span className="font-semibold text-neutral-600">Candor Industries</span>
+          <p className="text-lg mt-4 mb-2 md:text-2xl">📍Prev: Systems Engineer Intern @ <span className="font-semibold text-neutral-600">Candor Industries</span>
           </p>
           <p> </p>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">2nd year Computer Engineering student</span>
             {" "}based in Toronto, Ontario. I&#39;m currently seeking internships for{" "}
-            <span className="font-semibold text-blue-600">Fall 2025 and Winter 2026</span>
+            <span className="font-semibold text-blue-600">Winter and Spring 2026</span>
             {" "}in{" "}
             <span className="font-semibold text-red-600">Project Management</span>,{" "}
             <span className="font-semibold text-yellow-600">Software Engineering</span>
