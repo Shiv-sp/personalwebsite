@@ -58,6 +58,9 @@ const HeroSection = () => {
             <span className="text-cyan-600">{currentText}</span>
           </h1>
           <p> </p>
+          <p className="text-lg mt-4 mb-2 md:text-2xl">📍Incoming PM @ <span className="font-semibold text-neutral-600">AMD</span>
+          </p>
+          <p> </p>
           <p className="text-lg mt-4 mb-2 md:text-2xl">📍Prev: Systems Engineer Intern @ <span className="font-semibold text-neutral-600">Candor Industries</span>
           </p>
           <p> </p>
