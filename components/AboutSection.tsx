@@ -84,7 +84,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Currently, I'm in my 2nd year of pursuing a{" "}
+              Currently, I'm in my 3rd year of pursuing a{" "}
               <span className="font-bold text-teal-500">
                 Bachelors of Engineering (B.Eng.)
               </span>{" "}
@@ -121,7 +121,7 @@ const AboutSection = () => {
               </p>
               <iframe
                 style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1FoyQGyinuuvRu?utm_source=generator"
+                src="https://open.spotify.com/embed/playlist/1ZwoqGCRoRuU0bW2aNFP7n?utm_source=generator"
                 width="100%"
                 height="152"
                 frameBorder="0"

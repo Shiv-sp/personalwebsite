@@ -58,17 +58,16 @@ const HeroSection = () => {
             <span className="text-cyan-600">{currentText}</span>
           </h1>
           <p> </p>
+          <p> </p>
           <p className="text-lg mt-4 mb-2 md:text-2xl">📍Incoming PM @ <span className="font-semibold text-neutral-600">AMD</span>
           </p>
           <p> </p>
-          <p className="text-lg mt-4 mb-2 md:text-2xl">📍Prev: Systems Engineer Intern @ <span className="font-semibold text-neutral-600">Candor Industries</span>
-          </p>
-          <p> </p>
+
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">3rd year Computer Engineering student</span>
             {" "}based in Toronto, Ontario. I&#39;m currently seeking internships for{" "}
-            <span className="font-semibold text-blue-600">Winter and Spring 2026</span>
+            <span className="font-semibold text-blue-600">Spring 2028</span>
             {" "}in{" "}
             <span className="font-semibold text-red-600">Project Management</span>,{" "}
             <span className="font-semibold text-yellow-600">Software Engineering</span>
@@ -76,14 +75,14 @@ const HeroSection = () => {
             <span className="font-semibold text-green-600">Hardware Engineering</span>
             {" "}related roles!
           </p>
-          <a
+          {/*<a
             href="/ShivPatel_Resume_April_2025.pdf"
             className="text-neutral-100 font-semibold px-6 py-3 bg-green-500 rounded shadow hover:bg-teal-700"
             target="_blank"
             rel="noopener noreferrer"
           >
             View My Resume!
-          </a>
+          </a>*/}
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
